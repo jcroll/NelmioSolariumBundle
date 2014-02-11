@@ -18,6 +18,12 @@
         "symfony/framework-bundle": ">=2.1",
         "solarium/solarium": "dev-master"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/jcroll/solarium.git"
+        }
+    ],
     "autoload": {
         "psr-0": { "Nelmio\\SolariumBundle": "" }
     },
